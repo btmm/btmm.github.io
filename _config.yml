@@ -1,0 +1,19 @@
+title: Brandon Murray
+email: hello@brandonmurray.ca
+description: >-
+  Design portfolio of Canadian freelance designer Brandon Murray.
+  Showcasing featured work from past clients and sharing a bit
+  about the design process.
+baseurl: ""
+url: ""
+twitter_username: jekyllrb
+github_username:  jekyll
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Build settings
+markdown: kramdown
