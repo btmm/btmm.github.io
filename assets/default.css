@@ -64,6 +64,11 @@ a {
 .text-extra-large { font-size: 2rem; }
 
 /* Layout */
+section {
+	overflow-x: hidden;
+	position: relative;
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
