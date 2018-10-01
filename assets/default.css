@@ -201,52 +201,11 @@ ol.steps > li:last-child {
 	border-right: none;
 }
 
-.header {
-	display: flex;
-	padding: 1em 3em;
-}
-
-.header-brand {
-	flex-grow: 1;
-	font-weight: bold;
-}
-
-.process img { padding: 2em; }
-
-.study img { padding-left: 2rem; }
-
 .blue-fill { background-color: var(--blue); }
 
 .grey-fill { background-color: #f7f7f7; }
 
-/*
-.masthead::after {
-	background: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 2000 644%22 preserveAspectRatio=%22none%22%3E\a         %3Cpath fill=%22%23fafafa%22 d=%22M2000,0V644.23H0V425.48972L1511.96,584.39011a102.845,102.845,0,0,0,93.79-41.76026Z%22/%3E\a       %3C/svg%3E") no-repeat scroll center center/100% 100% border-box;
-	background: url("/assets/images/mask.svg") no-repeat scroll center center/100% 100% border-box;
-    content: '';
-    display: block;
-    height: 600px;
-    min-width: 1000px;
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-	bottom: 0;
-	left: 0;
-	margin-bottom: -20em;
-}
-*/
-
-.masthead h1 {
-	line-height: 1.3;
-	position: relative;
-	z-index: 10;
-}
-
 .blue-fill { background-color: var(--blue); }
-
-.green-fill { background-color: var(--green); }
-
-.pink-fill { background-color: var(--pink); }
 
 @keyframes drift {
 	0% { left: -300px; }
@@ -278,24 +237,10 @@ ol.steps > li:last-child {
 	top: 500px;
 }
 
-.services {
-	border-top: 2px solid #f4f4f4;
-	columns: 3;
-	column-gap: 2em;
-}
-
-.service {
-	font-size: 1.2em;
-}
-
 .icon {
 	height: 40px;
 	margin: 1rem 0;
 	width: 40px;
-}
-
-.action .lead {
-	font-size: 1.5em;
 }
 
 .dotted-background { background: #fafafa url(/assets/images/dotted.png); }
@@ -303,19 +248,6 @@ ol.steps > li:last-child {
 .logo {
 	border-radius: 0.5rem;
 	padding: 2rem;
-}
-
-.grid {
-	align-items: center;
-	display: flex;
-	flex-wrap: wrap;
-	margin: .5em;
-}
-
-.grid > * {
-	flex-basis: 200px;
-	flex-grow: 1;
-	margin: 1em;
 }
 
 .screenshot {
@@ -332,13 +264,6 @@ ol.steps > li:last-child {
 
 .moleskine {
 	margin: -8rem 0 4rem 0;
-}
-
-.study-image {
-	height: 300px;
-	margin-bottom: 2rem;
-	margin-top: -10rem;
-	width: 350px;
 }
 
 /* Responsive */
