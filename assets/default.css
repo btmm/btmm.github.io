@@ -35,14 +35,12 @@ img {
 /* Typography */
 html {
 	color: var(--dark-blue);
-	font: 16px/1.5 'Open Sans', sans-serif;
+	font: 16px/1.5 'Roboto', sans-serif;
 	scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
-	font-size: 1.25rem;
-	font-weight: bold;
-	line-height: 1.2;
+	font: 1.25rem/1.2 'Roboto Slab', sans-serif;
 	margin-bottom: 0.5em;
 }
 
