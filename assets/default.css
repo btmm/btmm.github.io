@@ -25,16 +25,11 @@ img {
 
 /* Colors */
 :root {
-	--dark-blue: #3B4348;
-	--blue: #B7DCF4;
-	--light-blue: #CAE6F7;
-	--green: #DCF4B7;
-	--pink: #F4B7DC;
+	--green: #41C75E;
 }
 
 /* Typography */
 html {
-	color: var(--dark-blue);
 	font: 16px/1.5 'Roboto', sans-serif;
 	scroll-behavior: smooth;
 }
@@ -63,6 +58,7 @@ a {
 
 /* Layout */
 section {
+	margin: 2rem auto;
 	overflow-x: hidden;
 	position: relative;
 }
@@ -81,6 +77,8 @@ section {
 .row, .row-reverse {
 	display: flex;
 	flex-direction: column;
+	margin-left: -1rem;
+	margin-right: -1rem;
 	padding: 0;
 }
 
@@ -111,10 +109,7 @@ section {
 }
 
 .page-header {
-	position: absolute;
-	top: 0;
 	width: 100%;
-	z-index: 10;
 }
 
 .section-small {
@@ -135,42 +130,17 @@ section {
 }
 
 /* Misc */
-mark {
-	background-color: transparent;
-}
-
-.pink-mark {
-	background: url(/assets/images/mark-pink.png) no-repeat center;
-	background-size: 100% 100%;
-	color: inherit;
-}
-
-.green-mark {
-	background: url(/assets/images/mark-green.png) no-repeat center;
-	background-size: 100% 100%;
-	color: inherit;
-}
-
-.blue-mark {
-	background: url(/assets/images/mark-blue.png) no-repeat center;
-	background-size: 100% 100%;
-	color: inherit;
-}
-
-.orange-mark {
-	background: url(/assets/images/mark-orange.png) no-repeat center;
-	background-size: 100% 100%;
-	color: inherit;
+.underline {
+	text-decoration: underline;
+	text-decoration-color: var(--green);
 }
 
 .button {
-	background-color: var(--dark-blue);
-	border-radius: .25rem;
+	background-color: black;
 	color: white;
 	display: inline-block;
-	font-weight: bold;
 	margin: 1rem 0;
-	padding: 0.75rem 2rem;
+	padding: 0.6rem 1.2rem;
 	text-align: center;
 	text-decoration: none;
 	width: auto;
@@ -245,8 +215,9 @@ ol.steps > li:last-child {
 .dotted-background { background: #fafafa url(/assets/images/dotted.png); }
 
 .logo {
-	border-radius: 0.5rem;
-	padding: 2rem;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.1rem;
+	font-weight: bold;
 }
 
 .screenshot {
@@ -263,6 +234,14 @@ ol.steps > li:last-child {
 
 .moleskine {
 	margin: -8rem 0 4rem 0;
+}
+
+.trim {
+	margin-top: 1rem;
+}
+
+.pad-bottom {
+	margin-bottom: 5rem;
 }
 
 /* Responsive */
