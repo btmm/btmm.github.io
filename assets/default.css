@@ -26,6 +26,9 @@ img {
 /* General */
 html {
 	font: 15px/1.5 'Roboto', sans-serif;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 4rem;
 	scroll-behavior: smooth;
 }
 
@@ -45,22 +48,15 @@ a {
 }
 
 section {
-	margin: 2rem auto;
+	margin: 4rem auto;
 	overflow-x: hidden;
 	position: relative;
-}
-
-.container {
-	margin: 0 auto;
-	max-width: 1200px;
-	padding: 0 1rem;
 }
 
 .row {
 	display: flex;
 	flex-direction: column;
-	margin-left: -1rem;
-	margin-right: -1rem;
+	margin: 0 -1rem;
 	padding: 0;
 }
 
@@ -74,18 +70,10 @@ section {
 	width: 100%;
 }
 
-.section-small {
-	padding: 1rem;
-}
-
 .icon {
 	height: 40px;
 	margin: 1rem 0;
 	width: 40px;
-}
-
-.pad-bottom {
-	margin-bottom: 5rem;
 }
 
 /* Responsive */
