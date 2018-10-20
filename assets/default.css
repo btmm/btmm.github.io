@@ -25,16 +25,16 @@ img {
 
 /* General */
 html {
-	font: 16px/1.5 'Roboto', sans-serif;
+	font: 15px/1.5 'Roboto', sans-serif;
 	scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4 {
-	font: 1.25rem/1.2 'Roboto Slab', sans-serif;
+	font: 1.2rem/1.2 'Roboto Slab', sans-serif;
 	margin-bottom: 0.5em;
 }
 
-h1 { font-size: 1.5rem; }
+h2 { font-size: 1.5rem; }
 
 p { margin-bottom: 1em; }
 
